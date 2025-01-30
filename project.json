@@ -1,0 +1,19 @@
+{
+    "id": "descend_cpp",
+    "type": "application",
+    "value": {
+        "author": "Cora Maxwell & Dane Borg",
+        "description": "An application to play the hit 2-player turn based strategy game Descend",
+        "language": "cpp",
+        "includes": ["./include/descend_cpp/", "./option_and_result/src/"],
+        "use": ["raylib", "option_and_result"]
+    },
+    "lang.cpp": {
+        "cpp-standard": "c++20"
+    },
+    "bundle": {
+        "repositories": {
+            "option_and_result": "https://github.com/IrrelevantGaymer/option_and_result"
+        }
+    }
+}
